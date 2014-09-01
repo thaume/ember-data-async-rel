@@ -1,0 +1,9 @@
+{{link-to "See all projects" "index"}}
+
+{{#with model}}
+  <h1>Title: {{title}}</h1>
+  {{link-to "Show description" "project.index" this}}
+  {{link-to "Show participants" "project.participants" this}}
+{{/with}}
+
+{{outlet}}

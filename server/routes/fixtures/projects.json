@@ -1,0 +1,21 @@
+[{
+    "id": "1",
+    "title": "Artistic",
+    "description": "A small project about art",
+    "participants": [1, 2, 3, 4]
+}, {
+    "id": "2",
+    "title": "Paperchain",
+    "description": "A cool project about daily creativity",
+    "participants": [2, 3, 4]
+}, {
+    "id": "3",
+    "title": "Black Beans",
+    "description": "A digital agency",
+    "participants": [1, 2, 4]
+}, {
+    "id": "4",
+    "title": "Blaaast",
+    "description": "It makes a Blaaast when it starts",
+    "participants": [1, 2, 3]
+}]
