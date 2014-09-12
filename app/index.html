@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>EDAsyncRel</title>
+    <title>EdAsyncRel</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,13 +14,13 @@
   </head>
   <body>
     <script>
-      window.EDAsyncRelENV = {{ENV}};
-      window.EmberENV = window.EDAsyncRelENV.EmberENV;
+      window.EdAsyncRelENV = {{ENV}};
+      window.EmberENV = window.EdAsyncRelENV.EmberENV;
     </script>
     <script src="assets/vendor.js"></script>
     <script src="assets/ed-async-rel.js"></script>
     <script>
-      window.EDAsyncRel = require('ed-async-rel/app')['default'].create(EDAsyncRelENV.APP);
+      window.EdAsyncRel = require('ed-async-rel/app')['default'].create(EdAsyncRelENV.APP);
     </script>
   </body>
 </html>

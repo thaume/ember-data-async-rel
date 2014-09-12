@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 var Router = Ember.Router.extend({
-  location: EDAsyncRelENV.locationType
+  location: EdAsyncRelENV.locationType
 });
 
 Router.map(function() {
