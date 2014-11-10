@@ -1,0 +1,25 @@
+<form role="form" {{action "create" on="submit"}}>
+  <legend>Create a new project</legend>
+
+  <p>
+    <label for="title">Project name</label>
+    {{input type="text" name="Project name" value=newProject.title class="form-control"}}
+  </p>
+
+  <p>
+    <label for="description">Project description</label>
+    {{input type="text" name="Project description" value=newProject.description class="form-control"}}
+  </p>
+
+  <p>
+    <label>Pick the participants</label>
+    <ul>
+    {{#each users}}
+      <li>{{input type="checkbox" checked=this.checked}} {{name}}</li>
+    {{/each}}
+    </ul>
+  </p>
+
+  <button type="submit" class="btn btn-default">Create project</button>
+
+</form>
